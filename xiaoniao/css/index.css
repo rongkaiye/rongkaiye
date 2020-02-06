@@ -1,0 +1,447 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+
+/*头部区域*/
+
+header {
+	width: 100%;
+	height: 120px;
+	background: #221236 url(../images/header_bg.jpg) top center;
+}
+
+
+/*导航*/
+
+nav {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+nav img {
+	float: left;
+}
+
+nav>ul {
+	width: 630px;
+	margin: 0px auto;
+	height: 25px;
+	line-height: 25px;
+	float: right;
+	margin-top: 45px;
+	text-align: right;
+}
+
+nav>ul>li {
+	float: left;
+	position: relative;
+}
+
+nav>ul>li:nth-child(1) {
+	background: url(../images/nav_now_bg.png) no-repeat bottom center;
+}
+
+nav>ul>li>a:hover {
+	background: url(../images/nav_now_bg.png) no-repeat bottom center;
+}
+
+nav>ul>li>a {
+	font-size: 16px;
+	text-align: left;
+	padding: 0 15px;
+	color: #fff;
+	float: left;
+	position: relative;
+	height: 35px;
+	font-weight: bolder;
+}
+
+nav>ul>li>a>span {
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: right;
+	right: 8px;
+	top: 0;
+	background: url(../images/nav_xiajiantou.png) no-repeat;
+}
+
+.li-hidden {
+	width: 120px;
+}
+
+.li-hidden:hover ul {
+	display: block;
+}
+
+.li-hidden>a {
+	width: 90px;
+}
+
+nav>ul>li>ul {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	left: -16px;
+	top: 35px;
+	width: 180px;
+	line-height: 40px;
+	background-color: #36264a;
+	z-index: 999;
+}
+
+.li-hidden>ul>li>a {
+	float: left;
+	width: 150px;
+	color: #fff;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 30px;
+	transition: padding-left 0.4s ease;
+}
+
+.li-hidden>ul>li>a:hover {
+	background-color: #0086B3;
+	padding-left: 40px;
+	transition: padding-left 0.4s ease;
+}
+
+.li-hidden>ul>li {
+	height: 40px;
+	position: relative;
+}
+
+.li-hidden>ul>li>span {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	font-size: 12px;
+	font-weight: 900;
+	color: #fff;
+}
+
+
+/*导航结束*/
+
+
+/*头部区域结束*/
+
+
+/*轮播区域*/
+
+#banner {
+	height: 593px;
+	min-width: 1100px;
+	position: relative;
+}
+
+.banner_change {
+	position: absolute;
+	left: 50%;
+	margin-left: -108px;
+	bottom: 40px;
+	z-index: 20;
+	height: 29px;
+	width: 216px;
+	background: url(../images/next&prev_line.png) no-repeat left center;
+}
+
+.banner_change>span {
+	position: absolute;
+	top: 0;
+	height: 29px;
+	width: 29px;
+	background: url(../images/prev_jiantou.png) no-repeat;
+	cursor: pointer;
+}
+
+.banner_change .right {
+	right: 0;
+	background: url(../images/next_jiantou.png) no-repeat;
+}
+
+.banner_change .points {
+	margin: 0 auto;
+	width: 45px;
+	height: 14px;
+	background: url(../images/next&prev_mbg01.png) no-repeat;
+	margin-top: 7px;
+}
+
+.banner_change .points .middle_wrap {
+	background: url(../images/next&prev_mbg03.png) no-repeat right;
+	height: 14px;
+}
+
+.banner_change .middle_wrap .middle {
+	background: url(../images/next&prev_mbg02.png) repeat-x;
+	height: 14px;
+	margin: 0 6px;
+}
+
+.banner_change .middle span {
+	display: block;
+	float: left;
+	width: 6px;
+	height: 6px;
+	margin-right: 7px;
+	margin-top: 4px;
+	background: url(../images/next&prev_others.png);
+	cursor: pointer;
+}
+
+.banner_change .middle .last {
+	margin-right: 0px;
+}
+
+.banner_change .middle .first {
+	background: url(../images/next&prev_now.png);
+}
+
+.banner_picture {
+	height: 593px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.banner_one {
+	background: url(../images/banner01_bg.jpg) no-repeat top center;
+}
+
+.picture_contents {
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner_one .picture_contents .image_1 {
+	position: absolute;
+	top: 204px;
+	left: 343px;
+}
+
+.banner_one .picture_contents .image_2 {
+	position: absolute;
+	top: 300px;
+	left: 375px;
+}
+
+.banner_one .picture_contents .image_3 {
+	position: absolute;
+	top: 354px;
+	left: 374px;
+}
+
+.banner_two {
+	background: url(../images/banner02_bg.jpg) no-repeat top center;
+}
+
+.banner_two .image_1 {
+	position: absolute;
+	top: 177px;
+	left: 61px;
+}
+
+.banner_two .image_2 {
+	position: absolute;
+	top: 70px;
+	left: 261px;
+}
+
+.banner_two .image_3 {
+	position: absolute;
+	top: 195px;
+	left: 270px;
+}
+
+.banner_three .image_1 {
+	top: 189px;
+	left: 384px;
+}
+
+.banner_three .image_2 {
+	top: 298px;
+	left: 397px;
+}
+
+.banner_change .middle .now {
+	background: url(../images/next&prev_now.png);
+}
+
+.prev:hover {
+	background: url(../images/prev_jiantou_hover.png);
+}
+
+.right:hover {
+	background: url(../images/next_jiantou_hover.png);
+}
+
+
+/*轮播区域结束*/
+
+
+/*地图*/
+
+.the_map {
+	position: relative;
+}
+
+.map_topimg {
+	width: 1100px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+.map_topimg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.map_bottomimg {
+	background: url(../images/map_bottomimg.png) top center no-repeat;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 33px;
+	width: 100%;
+	min-width: 1100px;
+	background-color: transparent;
+}
+
+.all_map_baidu {
+	height: 660px;
+	overflow: hidden;
+	min-width: 1100px;
+	margin: 0;
+	font-family: "宋体";
+}
+
+
+/*底部*/
+
+.footer {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.footer_wrap {
+	height: 348px;
+	min-width: 1100px;
+	background: url(../images/yinyue_bg.jpg);
+}
+
+.footer-span {
+	padding: 116px 0 0 276px;
+	height: 67px;
+}
+
+.footer-span span {
+	float: left;
+	cursor: pointer;
+	width: 57px;
+	height: 57px;
+	margin-right: 25px;
+}
+
+.footer-span span:hover {
+	background-position: 0 -57px;
+	animation: 1s linear 0s normal none 1 running su-pudding;
+}
+
+.footer .shenmin {
+	border-top: 2px #9890a2 dashed;
+	text-align: center;
+	line-height: 65px;
+	margin-top: 79px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.footer .shenmin:hover {
+	color: #6CF;
+}
+
+
+/* 返回顶部部分开始 */
+
+#ding {
+	position: fixed;
+	right: 30px;
+	bottom: 30%;
+	width: 90px;
+	height: 200px;
+	z-index: 9999999999;
+	/*display: none;*/
+}
+
+#ding>a>div {
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background: url(../images/scroll_top_bg.png) no-repeat 0px 0px;
+}
+
+#ding>a>div:hover {
+	background: url(../images/scroll_top_bg.png) no-repeat 0px -50px;
+	transition: all 0.5s ease;
+}
+
+#ding>div {
+	width: 90px;
+	height: 90px;
+	position: relative;
+}
+
+#ding>div>div {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: url(../images/fixed_contactus.png) top right no-repeat;
+}
+
+#ding>div:hover div {
+	width: 235px;
+	/* animation: 1s linear 0s normal none 1 running scroll; */
+	transition: all 0.5s ease;
+}
+
+@keyframes scroll {
+	0% {
+		transform: scale(0, 0);
+	}
+	25% {
+		transform: scale(0.9, 0.9);
+	}
+	50% {
+		transform: scale(1.1, 1.1);
+	}
+	75% {
+		transform: scale(0.9, 0.9);
+	}
+	100% {
+		transform: scale(0, 0);
+	}
+}
+
+
+/* 返回顶部部分结束 */

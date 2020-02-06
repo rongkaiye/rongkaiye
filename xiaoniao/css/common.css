@@ -1,0 +1,124 @@
+/* 内容部分开始  */
+
+#content {
+	width: 780px;
+	margin: 0px auto;
+	background-color: #fff;
+	padding: 70px 160px 130px 160px;
+}
+
+#content>h1 {
+	text-align: center;
+	color: #311759;
+	font-size: 54px;
+}
+
+#content>h2 {
+	text-align: center;
+	color: #311759;
+}
+
+#content>img {
+	display: block;
+	margin: 0px auto;
+	margin-top: 15px;
+}
+
+#content>.con {
+	margin-top: 20px;
+	position: relative;
+	background: url(../images/pen_line_long.png) no-repeat 0px 53px;
+}
+
+.con>p {
+	font-size: 30px;
+	height: 55px;
+	color: #311759;
+}
+
+.con>span {
+	display: block;
+	width: 61px;
+	height: 58px;
+	background: url(../images/pen_article.png) no-repeat;
+	position: absolute;
+	right: 0px;
+	bottom: -5px;
+	cursor: pointer;
+}
+
+.con>span:hover {
+	background-position: -61px 0;
+}
+
+#content>.name {
+	color: #6b6a6f;
+	padding-top: 15px;
+	margin-bottom: 60px;
+}
+
+#content>.name span {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 正文部分开始  */
+
+#content>.article>div>p {
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+#content>.article>div>p:nth-child(1),
+#content>.article>div>p:nth-child(5),
+#content>.article>div>p:nth-child(7) {
+	font-size: 22px;
+	padding: 10px 0px;
+}
+
+#content>.article>div>p:nth-child(9) {
+	padding-left: 15px;
+}
+
+#content>.article .like {
+	width: 73px;
+	height: 73px;
+	margin-top: 70px;
+	margin-left: 50%;
+	overflow: hidden;
+}
+
+#content>.article .like>div:first-of-type {
+	width: 73px;
+	height: 73px;
+	float: left;
+	background: url(../images/article_iflike.png) no-repeat 0px 0px;
+}
+
+#content>.article .like>div:last-of-type {
+	width: 130px;
+	height: 73px;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+	padding-top: 8px;
+	float: right;
+	background: url(../images/article_iflike_nomberbg.png) no-repeat 0px 0px;
+}
+
+#content>.article .like:hover {
+	width: 220px;
+	transition: all 0.5s ease;
+}
+
+.footer-img {
+	background: #fff url(../images/map_bottomimg.png) top center no-repeat;
+	height: 33px;
+	width: 100%;
+}
+
+
+/* 正文部分结束 */
+
+
+/* 内容部分结束 */
